@@ -1,0 +1,28 @@
+.headers {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  text-decoration: underline;
+  font-style: inherit;
+}
+
+.text {
+  font-style: italic;
+}
+
+.button3 {
+  padding-top: 1rem;
+  background-color: #0981617e;
+  width: 16%;
+  height: 20%;
+  font-style: italic;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.button3:hover {
+  background-color: #FFBF00;
+  border: 10px solid rgba(233, 231, 240, 0.452);
+  opacity: 0.7;
+}

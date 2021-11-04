@@ -1,0 +1,154 @@
+.br {
+  background-color: rgba(3, 3, 3, 0.13);
+}
+
+.container {
+  padding-right: 8%;
+}
+
+.lay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: solid;
+  text-decoration: blueviolet;
+}
+
+.pb {
+  background-image: url("../assets/plumb.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 8vw;
+  min-width: 50px;
+  max-width: 300px;
+}
+
+.pb:hover {
+  padding: 80px;
+  border-radius: 45px;
+  background-color: #FFBF00;
+}
+
+.mov {
+  background-image: url("../assets/move.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 10vw;
+  min-width: 50px;
+  max-width: 300px;
+}
+
+.mov:hover {
+  padding: 80px;
+  border-radius: 45px;
+  background-color: #FFBF00;
+}
+
+.bth {
+  background-image: url("../assets/videocamera.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 100%;
+  min-width: 50px;
+  max-width: 300px;
+}
+
+.bth:hover {
+  padding: 80px;
+  border-radius: 45px;
+  background-color: #FFBF00;
+}
+
+.gra {
+  background-image: url("../assets/cutting.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 8vw;
+  min-width: 50px;
+  max-width: 300px;
+}
+
+.gra:hover {
+  padding: 80px;
+  border-radius: 45px;
+  background-color: #FFBF00;
+}
+
+.pnt {
+  background-image: url("../assets/paint.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 20vh;
+  width: 8vw;
+  min-width: 50px;
+  max-width: 300px;
+}
+
+.pnt:hover {
+  padding: 80px;
+  border-radius: 45px;
+  background-color: #FFBF00;
+}
+
+.button:hover {
+  border: 10px solid rgba(97, 72, 236, 0.452);
+}
+
+.box {
+  padding-top: 4rem;
+}
+
+.box1 {
+  padding-top: 4rem;
+  font-style: italic;
+}
+
+.box:hover {
+  border: 10px solid rgba(233, 231, 240, 0.452);
+  opacity: 0.7;
+}
+
+.box1:hover {
+  border: 10px solid rgba(219, 217, 233, 0.452);
+}
+
+.box1:hover:after {
+  display: block;
+  border: solid transparent;
+  content: " ";
+  position: absolute;
+  pointer-events: visiblePainted;
+  border-color: rgba(0, 0, 0, 0);
+  border-left-color: gray;
+  border-width: 18px;
+  margin-top: -20px;
+  margin-left: -10px;
+}
+
+.cfooter {
+  padding-top: 60rem;
+  padding-bottom: 0rem;
+}
+
+.outline {
+  width: 25% !important;
+}
+
+.outline:hover {
+  background-color: #FFBF00 !important;
+}
