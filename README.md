@@ -1,0 +1,1 @@
+This project was completed for CMPS 285 which is the first project class at Southeastern Louisiana University, and my introduction to React and .NET.
